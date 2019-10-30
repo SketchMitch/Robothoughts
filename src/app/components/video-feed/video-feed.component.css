@@ -1,0 +1,13 @@
+.video-feed {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.video-box {
+  margin: auto;
+}
+
+* {
+
+}

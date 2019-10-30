@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+// import {backendService} from '/backend.service'
 
 @Component({
   selector: 'app-video-feed',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./video-feed.component.css']
 })
 export class VideoFeedComponent implements OnInit {
+  video: object = {};
 
   constructor() { }
 

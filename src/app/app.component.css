@@ -15,7 +15,8 @@
   }
 
 .body-container {
-    /* display: flex; */
+    display: flex;
+    flex-wrap: wrap;
   height: calc(100vh - 60px);
   margin: 0 -8px -8px;
   background-color: rgb(216, 0, 0);

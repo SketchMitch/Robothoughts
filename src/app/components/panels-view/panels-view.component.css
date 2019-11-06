@@ -1,14 +1,13 @@
-.video-box {
+/* .video-box {
     display: inline-block;
     box-sizing: border-box;
     height: 70%;
     width: 100%;
     padding: 1em;
-}
+} */
 
 .logger-box {
-    display: inline-block;
-    box-sizing: border-box;
+    display: flex;
     height: 30%;
     width: 100%;
 }

@@ -7,12 +7,16 @@ import { PanelsViewComponent } from './components/panels-view/panels-view.compon
 import { VideoFeedComponent } from './components/video-feed/video-feed.component';
 import { HttpClient } from 'selenium-webdriver/http';
 import { HttpClientModule } from '@angular/common/http';
+import { ImuComponent } from './imu/imu.component';
+import { DvlComponent } from './dvl/dvl.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PanelsViewComponent,
-    VideoFeedComponent
+    VideoFeedComponent,
+    ImuComponent,
+    DvlComponent
   ],
   imports: [
     BrowserModule,
